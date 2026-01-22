@@ -26,6 +26,68 @@ rather than just the context module where it appears in the data tree.
 
 ---
 
+## Top 50 Unreferenced Leafs in Device Configuration Profile
+
+The following table shows individual leafs that are **NOT** referenced in `aruba-cx-device-configuration.yang`,
+along with their **actual source module** (where the leaf is defined) and customer impact.
+
+| Rank | Leaf Name | Actual Source Module | Big Cluster | Small Cluster | Total |
+|-----:|-----------|---------------------|------------:|--------------:|------:|
+| 1 | ethernet-interfaces.interface.name | aruba-aaa-via | 12,284 | 4,723 | 17,007 |
+| 2 | ethernet-interfaces.interface.enable | aruba-aaa-lma | 10,512 | 4,716 | 15,228 |
+| 3 | ethernet-interfaces.interface.switchport.interface-mode | aruba-interface-common | 10,276 | 4,673 | 14,949 |
+| 4 | ethernet-interfaces.interface.switchport.access-vlan | aruba-interface-common | 9,950 | 4,352 | 14,302 |
+| 5 | ethernet-interfaces.interface.switchport.native-vlan | aruba-interface-common | 8,663 | 3,848 | 12,511 |
+| 6 | ethernet-interfaces.interface.description | aruba-aaa-via | 6,990 | 3,231 | 10,221 |
+| 7 | ethernet-interfaces.interface.switchport.trunk-vlan-ranges | aruba-interface-common | 5,998 | 3,089 | 9,087 |
+| 8 | stacks.stack.name | aruba-aaa-via | 5,701 | 3,022 | 8,723 |
+| 9 | stacks.stack.members.id | aruba-uplink | 5,675 | 3,022 | 8,697 |
+| 10 | stacks.stack.members.sku | aruba-device-info | 5,671 | 3,022 | 8,693 |
+| 11 | ethernet-interfaces.interface.routing | aruba-interface-common | 5,652 | 3,035 | 8,687 |
+| 12 | vsf-templates.template.name | aruba-aaa-via | 5,558 | 2,963 | 8,521 |
+| 13 | vsf-templates.template.members.id | aruba-uplink | 5,501 | 2,944 | 8,445 |
+| 14 | vsf-templates.template.members.sku | aruba-device-info | 5,501 | 2,944 | 8,445 |
+| 15 | ethernet-interfaces.interface.switchport.trunk-vlan-all | aruba-interface-common | 6,163 | 2,277 | 8,440 |
+| 16 | portchannels.interface.name | aruba-aaa-via | 4,237 | 2,130 | 6,367 |
+| 17 | portchannels.interface.enable | aruba-aaa-lma | 4,223 | 2,126 | 6,349 |
+| 18 | portchannels.interface.switchport.interface-mode | aruba-interface-common | 4,210 | 2,122 | 6,332 |
+| 19 | portchannels.interface.port-list | aruba-snmp-trap | 4,052 | 2,059 | 6,111 |
+| 20 | portchannels.interface.switchport.native-vlan | aruba-interface-common | 4,067 | 2,031 | 6,098 |
+| 21 | ethernet-interfaces.interface.portchannel-lag | aruba-interface-ethernet | 4,041 | 2,028 | 6,069 |
+| 22 | portchannels.interface.lacp.mode | aruba-uplink | 3,882 | 1,965 | 5,847 |
+| 23 | portchannels.interface.trunk-type | aruba-interface-common | 3,881 | 1,966 | 5,847 |
+| 24 | portchannels.interface.routing | aruba-interface-common | 3,413 | 1,815 | 5,228 |
+| 25 | portchannels.interface.description | aruba-aaa-via | 3,508 | 1,691 | 5,199 |
+| 26 | stacks.stack.members.links.link1.interfaces | aruba-ap-device-configuration | 3,227 | 1,643 | 4,870 |
+| 27 | macauth.profile.name | aruba-aaa-via | 4,078 | 663 | 4,741 |
+| 28 | dot1xauth.profile.name | aruba-aaa-via | 4,063 | 646 | 4,709 |
+| 29 | stacks.stack.members.links.link2.interfaces | aruba-ap-device-configuration | 3,006 | 1,505 | 4,511 |
+| 30 | portchannels.interface.switchport.trunk-vlan-ranges | aruba-interface-common | 3,006 | 1,441 | 4,447 |
+| 31 | stacks.stack.secondary-member | aruba-switch-stack | 2,641 | 1,374 | 4,015 |
+| 32 | vsf-templates.template.secondary-member | aruba-switch-stack | 2,641 | 1,374 | 4,015 |
+| 33 | ethernet-interfaces.interface.loop-protect.enable | aruba-aaa-lma | 2,865 | 1,080 | 3,945 |
+| 34 | portchannels.interface.switchport.trunk-vlan-all | aruba-interface-common | 2,371 | 1,263 | 3,634 |
+| 35 | ethernet-interfaces.interface.stp.admin-edge-port | aruba-interface-common | 2,299 | 984 | 3,283 |
+| 36 | ethernet-interfaces.interface.stp.bpdu-guard | aruba-interface-common | 2,112 | 841 | 2,953 |
+| 37 | named-conditions.named-condition.condition-rule.position | aruba-policy-group | 2,372 | 353 | 2,725 |
+| 38 | named-conditions.named-condition.name | aruba-aaa-via | 2,372 | 353 | 2,725 |
+| 39 | dot1xauth.profile.enable | aruba-aaa-lma | 2,365 | 41 | 2,406 |
+| 40 | macauth.profile.enable | aruba-aaa-lma | 2,365 | 39 | 2,404 |
+| 41 | ethernet-interfaces.interface.mtu | aruba-interface-common | 1,418 | 680 | 2,098 |
+| 42 | ethernet-interfaces.interface.aaa.authentication.mac-auth.enable | aruba-aaa-lma | 1,516 | 560 | 2,076 |
+| 43 | layer2-vlan-range.enable | aruba-aaa-lma | 2,000 | 76 | 2,076 |
+| 44 | ethernet-interfaces.interface.aaa.authentication.dot1x-auth.enable | aruba-aaa-lma | 1,506 | 563 | 2,069 |
+| 45 | loop-protect.profile.name | aruba-aaa-via | 1,622 | 369 | 1,991 |
+| 46 | ethernet-interfaces.interface.speed-duplex | aruba-interface-common | 1,356 | 624 | 1,980 |
+| 47 | switch-profiles.profile.name | aruba-aaa-via | 1,161 | 705 | 1,866 |
+| 48 | switch-profiles.profile.selected | aruba-switch-profiles | 1,161 | 705 | 1,866 |
+| 49 | qos-dscp.profile.dscp-map.dscp | aruba-qos-dscp | 1,839 | 0 | 1,839 |
+| 50 | qos-dscp.profile.name | aruba-aaa-via | 1,839 | 0 | 1,839 |
+
+*Total unreferenced leafs: 979*
+
+---
+
 ## Unreferenced Leafs by ACTUAL Source Module
 
 This section shows where each leaf is **actually defined** in the YANG hierarchy,
