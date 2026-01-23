@@ -82,6 +82,103 @@ xychart-beta
 | 24 | cert-rcp | aruba-certificate-rcp | 1,149 |
 | 25 | if-vxlan | aruba-interface-vxlan | 1,114 |
 
+### Complete List: All 90 Unreferenced YANG Modules
+
+The charts above show the top 25 modules. Below is the complete list of all 90 YANG modules with unreferenced leafs:
+
+| Rank | YANG Module | Total Customers |
+|------|-------------|-----------------|
+| 1 | aruba-interface-ethernet | 170,256 |
+| 2 | aruba-interface-portchannel | 70,517 |
+| 3 | aruba-switch-stack | 49,453 |
+| 4 | aruba-vsf-template | 30,543 |
+| 5 | aruba-vsx | 9,805 |
+| 6 | aruba-vlan-range | 8,799 |
+| 7 | aruba-vsx-pair | 8,372 |
+| 8 | aruba-aaa-dot1xauth | 7,781 |
+| 9 | aruba-aaa-macauth | 7,525 |
+| 10 | aruba-qos-dscp | 7,219 |
+| 11 | aruba-named-condition | 5,666 |
+| 12 | aruba-loop-protect | 4,847 |
+| 13 | aruba-switch-profiles | 3,732 |
+| 14 | aruba-switch-chassis | 2,846 |
+| 15 | aruba-job-scheduler | 2,668 |
+| 16 | aruba-hardware-module-profile | 2,578 |
+| 17 | aruba-qos | 1,761 |
+| 18 | aruba-devicefingerprinting | 1,684 |
+| 19 | aruba-snmp-trap | 1,560 |
+| 20 | aruba-qos-schedule | 1,553 |
+| 21 | aruba-qos-queue | 1,308 |
+| 22 | aruba-port-security | 1,191 |
+| 23 | aruba-ip-icmp-tcp | 1,168 |
+| 24 | aruba-certificate-rcp | 1,149 |
+| 25 | aruba-interface-vxlan | 1,114 |
+| 26 | aruba-ipfix-flow-record | 1,053 |
+| 27 | aruba-device-certificate | 1,038 |
+| 28 | aruba-object-group | 966 |
+| 29 | aruba-system-info | 866 |
+| 30 | aruba-nae-agent | 831 |
+| 31 | aruba-lldp | 783 |
+| 32 | aruba-cdp | 554 |
+| 33 | aruba-management-user-group | 516 |
+| 34 | aruba-interface-tunnel | 465 |
+| 35 | aruba-nae-script | 463 |
+| 36 | aruba-ipfix-flow-exporter | 375 |
+| 37 | aruba-nexthop-group | 343 |
+| 38 | aruba-copp | 326 |
+| 39 | aruba-traffic-insight | 304 |
+| 40 | aruba-interface-vni | 300 |
+| 41 | aruba-ipfix-flow-monitor | 299 |
+| 42 | aruba-mgmd | 288 |
+| 43 | aruba-aaa-captive-portal | 276 |
+| 44 | aruba-rip | 276 |
+| 45 | aruba-role-gpid | 264 |
+| 46 | aruba-ipsla | 249 |
+| 47 | aruba-interface-subinterface | 240 |
+| 48 | aruba-interface-vxlan-tunnel | 235 |
+| 49 | aruba-mirror-endpoint | 231 |
+| 50 | aruba-keychain | 216 |
+| 51 | aruba-dhcp-snooping-interface | 189 |
+| 52 | aruba-nae-lite | 166 |
+| 53 | aruba-ip-lockdown | 142 |
+| 54 | aruba-udp-broadcast-forwarder | 120 |
+| 55 | aruba-firmware-management | 116 |
+| 56 | aruba-lacp | 114 |
+| 57 | aruba-mka | 106 |
+| 58 | aruba-erps | 105 |
+| 59 | aruba-external-storage | 104 |
+| 60 | aruba-psm | 97 |
+| 61 | aruba-ptp | 97 |
+| 62 | aruba-static-mac | 95 |
+| 63 | aruba-named-vlan | 75 |
+| 64 | aruba-nd-snooping | 74 |
+| 65 | aruba-mvrp | 70 |
+| 66 | aruba-mac-lockout | 63 |
+| 67 | aruba-ufd | 62 |
+| 68 | aruba-dhcp-client | 56 |
+| 69 | aruba-macsec | 53 |
+| 70 | aruba-qos-threshold-profile | 51 |
+| 71 | aruba-track-object | 50 |
+| 72 | aruba-smartlink | 49 |
+| 73 | aruba-qos-cos | 48 |
+| 74 | aruba-ip-binding | 42 |
+| 75 | aruba-feature-pack | 40 |
+| 76 | aruba-l3-route | 37 |
+| 77 | aruba-nd-snooping-interface | 31 |
+| 78 | aruba-config-checkpoint | 31 |
+| 79 | aruba-dynamic-arp-inspection-interface | 24 |
+| 80 | aruba-container | 22 |
+| 81 | aruba-rmon-alarm | 22 |
+| 82 | aruba-countermon | 18 |
+| 83 | aruba-dsm | 13 |
+| 84 | aruba-advanced-intelligent-forwarding | 13 |
+| 85 | aruba-sysmon | 12 |
+| 86 | aruba-qos-pool | 12 |
+| 87 | aruba-container-network | 9 |
+| 88 | aruba-ip-routing | 8 |
+| 89 | aruba-ip-lockdown-interface | 7 |
+| 90 | aruba-multicast | 6 |
+
 ## YANG Modules Imported by aruba-cx-device-configuration.yang
 
 The following YANG modules ARE referenced:
