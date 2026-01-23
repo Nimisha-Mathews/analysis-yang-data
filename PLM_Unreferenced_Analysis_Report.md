@@ -16,6 +16,45 @@ This report identifies leafs from the PLM Consolidated Leaf List that are **NOT*
 | Total Small Cluster Customers Affected | 127933 |
 | **Total Customers Affected** | **419301** |
 
+### Customer Impact by YANG Module (Top 25)
+
+```mermaid
+xychart-beta
+    title "Unreferenced Leafs - Total Customers by YANG Module"
+    x-axis ["if-ethernet", "if-portchannel", "switch-stack", "vsf-template", "vsx", "vlan-range", "vsx-pair", "aaa-dot1x", "aaa-macauth", "qos-dscp", "named-cond", "loop-protect", "sw-profiles", "sw-chassis", "job-sched", "hw-mod-prof", "qos", "dfp", "snmp-trap", "qos-sched", "qos-queue", "port-sec", "ip-icmp-tcp", "cert-rcp", "if-vxlan"]
+    y-axis "Total Customers" 0 --> 180000
+    bar [170256, 70517, 49453, 30543, 9805, 8799, 8372, 7781, 7525, 7219, 5666, 4847, 3732, 2846, 2668, 2578, 1761, 1684, 1560, 1553, 1308, 1191, 1168, 1149, 1114]
+```
+
+**Legend:**
+| Abbreviation | Full YANG Module Name |
+|--------------|----------------------|
+| if-ethernet | aruba-interface-ethernet |
+| if-portchannel | aruba-interface-portchannel |
+| switch-stack | aruba-switch-stack |
+| vsf-template | aruba-vsf-template |
+| vsx | aruba-vsx |
+| vlan-range | aruba-vlan-range |
+| vsx-pair | aruba-vsx-pair |
+| aaa-dot1x | aruba-aaa-dot1xauth |
+| aaa-macauth | aruba-aaa-macauth |
+| qos-dscp | aruba-qos-dscp |
+| named-cond | aruba-named-condition |
+| loop-protect | aruba-loop-protect |
+| sw-profiles | aruba-switch-profiles |
+| sw-chassis | aruba-switch-chassis |
+| job-sched | aruba-job-scheduler |
+| hw-mod-prof | aruba-hardware-module-profile |
+| qos | aruba-qos |
+| dfp | aruba-devicefingerprinting |
+| snmp-trap | aruba-snmp-trap |
+| qos-sched | aruba-qos-schedule |
+| qos-queue | aruba-qos-queue |
+| port-sec | aruba-port-security |
+| ip-icmp-tcp | aruba-ip-icmp-tcp |
+| cert-rcp | aruba-certificate-rcp |
+| if-vxlan | aruba-interface-vxlan |
+
 ## YANG Modules Imported by aruba-cx-device-configuration.yang
 
 The following YANG modules ARE referenced:
