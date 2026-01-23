@@ -18,12 +18,14 @@ This report identifies leafs from the PLM Consolidated Leaf List that are **NOT*
 
 ### Customer Impact by YANG Module (Top 25)
 
+#### Chart 1: Highest Impact (Rank 1-8)
+
 ```mermaid
 xychart-beta
-    title "Unreferenced Leafs - Total Customers by YANG Module"
-    x-axis ["if-ethernet", "if-portchannel", "switch-stack", "vsf-template", "vsx", "vlan-range", "vsx-pair", "aaa-dot1x", "aaa-macauth", "qos-dscp", "named-cond", "loop-protect", "sw-profiles", "sw-chassis", "job-sched", "hw-mod-prof", "qos", "dfp", "snmp-trap", "qos-sched", "qos-queue", "port-sec", "ip-icmp-tcp", "cert-rcp", "if-vxlan"]
+    title "Unreferenced Leafs - Top 8 YANG Modules by Customer Impact"
+    x-axis ["if-ethernet", "if-portchannel", "switch-stack", "vsf-template", "vsx", "vlan-range", "vsx-pair", "aaa-dot1x"]
     y-axis "Total Customers" 0 --> 180000
-    bar [170256, 70517, 49453, 30543, 9805, 8799, 8372, 7781, 7525, 7219, 5666, 4847, 3732, 2846, 2668, 2578, 1761, 1684, 1560, 1553, 1308, 1191, 1168, 1149, 1114]
+    bar [170256, 70517, 49453, 30543, 9805, 8799, 8372, 7781]
 ```
 
 | # | Chart Label | Full YANG Module Name | Total Customers |
@@ -36,6 +38,19 @@ xychart-beta
 | 6 | vlan-range | aruba-vlan-range | 8,799 |
 | 7 | vsx-pair | aruba-vsx-pair | 8,372 |
 | 8 | aaa-dot1x | aruba-aaa-dot1xauth | 7,781 |
+
+#### Chart 2: Medium Impact (Rank 9-17)
+
+```mermaid
+xychart-beta
+    title "Unreferenced Leafs - YANG Modules Rank 9-17"
+    x-axis ["aaa-macauth", "qos-dscp", "named-cond", "loop-protect", "sw-profiles", "sw-chassis", "job-sched", "hw-mod-prof", "qos"]
+    y-axis "Total Customers" 0 --> 8000
+    bar [7525, 7219, 5666, 4847, 3732, 2846, 2668, 2578, 1761]
+```
+
+| # | Chart Label | Full YANG Module Name | Total Customers |
+|---|-------------|----------------------|-----------------|
 | 9 | aaa-macauth | aruba-aaa-macauth | 7,525 |
 | 10 | qos-dscp | aruba-qos-dscp | 7,219 |
 | 11 | named-cond | aruba-named-condition | 5,666 |
@@ -45,6 +60,19 @@ xychart-beta
 | 15 | job-sched | aruba-job-scheduler | 2,668 |
 | 16 | hw-mod-prof | aruba-hardware-module-profile | 2,578 |
 | 17 | qos | aruba-qos | 1,761 |
+
+#### Chart 3: Lower Impact (Rank 18-25)
+
+```mermaid
+xychart-beta
+    title "Unreferenced Leafs - YANG Modules Rank 18-25"
+    x-axis ["dfp", "snmp-trap", "qos-sched", "qos-queue", "port-sec", "ip-icmp-tcp", "cert-rcp", "if-vxlan"]
+    y-axis "Total Customers" 0 --> 2000
+    bar [1684, 1560, 1553, 1308, 1191, 1168, 1149, 1114]
+```
+
+| # | Chart Label | Full YANG Module Name | Total Customers |
+|---|-------------|----------------------|-----------------|
 | 18 | dfp | aruba-devicefingerprinting | 1,684 |
 | 19 | snmp-trap | aruba-snmp-trap | 1,560 |
 | 20 | qos-sched | aruba-qos-schedule | 1,553 |
