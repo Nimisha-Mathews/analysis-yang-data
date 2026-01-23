@@ -26,34 +26,33 @@ xychart-beta
     bar [170256, 70517, 49453, 30543, 9805, 8799, 8372, 7781, 7525, 7219, 5666, 4847, 3732, 2846, 2668, 2578, 1761, 1684, 1560, 1553, 1308, 1191, 1168, 1149, 1114]
 ```
 
-**Legend:**
-| Abbreviation | Full YANG Module Name |
-|--------------|----------------------|
-| if-ethernet | aruba-interface-ethernet |
-| if-portchannel | aruba-interface-portchannel |
-| switch-stack | aruba-switch-stack |
-| vsf-template | aruba-vsf-template |
-| vsx | aruba-vsx |
-| vlan-range | aruba-vlan-range |
-| vsx-pair | aruba-vsx-pair |
-| aaa-dot1x | aruba-aaa-dot1xauth |
-| aaa-macauth | aruba-aaa-macauth |
-| qos-dscp | aruba-qos-dscp |
-| named-cond | aruba-named-condition |
-| loop-protect | aruba-loop-protect |
-| sw-profiles | aruba-switch-profiles |
-| sw-chassis | aruba-switch-chassis |
-| job-sched | aruba-job-scheduler |
-| hw-mod-prof | aruba-hardware-module-profile |
-| qos | aruba-qos |
-| dfp | aruba-devicefingerprinting |
-| snmp-trap | aruba-snmp-trap |
-| qos-sched | aruba-qos-schedule |
-| qos-queue | aruba-qos-queue |
-| port-sec | aruba-port-security |
-| ip-icmp-tcp | aruba-ip-icmp-tcp |
-| cert-rcp | aruba-certificate-rcp |
-| if-vxlan | aruba-interface-vxlan |
+| # | Chart Label | Full YANG Module Name | Total Customers |
+|---|-------------|----------------------|-----------------|
+| 1 | if-ethernet | aruba-interface-ethernet | 170,256 |
+| 2 | if-portchannel | aruba-interface-portchannel | 70,517 |
+| 3 | switch-stack | aruba-switch-stack | 49,453 |
+| 4 | vsf-template | aruba-vsf-template | 30,543 |
+| 5 | vsx | aruba-vsx | 9,805 |
+| 6 | vlan-range | aruba-vlan-range | 8,799 |
+| 7 | vsx-pair | aruba-vsx-pair | 8,372 |
+| 8 | aaa-dot1x | aruba-aaa-dot1xauth | 7,781 |
+| 9 | aaa-macauth | aruba-aaa-macauth | 7,525 |
+| 10 | qos-dscp | aruba-qos-dscp | 7,219 |
+| 11 | named-cond | aruba-named-condition | 5,666 |
+| 12 | loop-protect | aruba-loop-protect | 4,847 |
+| 13 | sw-profiles | aruba-switch-profiles | 3,732 |
+| 14 | sw-chassis | aruba-switch-chassis | 2,846 |
+| 15 | job-sched | aruba-job-scheduler | 2,668 |
+| 16 | hw-mod-prof | aruba-hardware-module-profile | 2,578 |
+| 17 | qos | aruba-qos | 1,761 |
+| 18 | dfp | aruba-devicefingerprinting | 1,684 |
+| 19 | snmp-trap | aruba-snmp-trap | 1,560 |
+| 20 | qos-sched | aruba-qos-schedule | 1,553 |
+| 21 | qos-queue | aruba-qos-queue | 1,308 |
+| 22 | port-sec | aruba-port-security | 1,191 |
+| 23 | ip-icmp-tcp | aruba-ip-icmp-tcp | 1,168 |
+| 24 | cert-rcp | aruba-certificate-rcp | 1,149 |
+| 25 | if-vxlan | aruba-interface-vxlan | 1,114 |
 
 ## YANG Modules Imported by aruba-cx-device-configuration.yang
 
