@@ -33,8 +33,8 @@ This report analyzes the PLM leaf entries from `Consolidated_PLM_Leaf_list.xlsx`
 
 These leafs are NOT in the UI but have significant customer usage:
 
-| Yang Name | Leaf Name | Big Cluster Customers | Small Cluster Customers | Total Customers |
-|-----------|-----------|----------------------|------------------------|-----------------|
+| Yang Name | Leaf Name | Big Cluster Customers | Small Cluster Customers | Total Customers |Comments|
+|-----------|-----------|----------------------|------------------------|-----------------|------------|
 | aruba-management-user | aruba-management-user:management-users.user.ciphertext-password | 8719 | 4510 | 13229 |
 | aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.kex-algorithms.algorithm | 3916 | 2403 | 6319 |
 | aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.kex-algorithms.priority | 3916 | 2403 | 6319 |
