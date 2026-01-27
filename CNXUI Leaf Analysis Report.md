@@ -35,20 +35,20 @@ These leafs are NOT in the UI but have significant customer usage:
 
 | Yang Name | Leaf Name | Big Cluster Customers | Small Cluster Customers | Total Customers |Comments|
 |-----------|-----------|----------------------|------------------------|-----------------|------------|
-| aruba-management-user | aruba-management-user:management-users.user.ciphertext-password | 8719 | 4510 | 13229 |
+| aruba-management-user | aruba-management-user:management-users.user.ciphertext-password | 8719 | 4510 | 13229 | Users are not expected to type ciphertext password |
 | aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.kex-algorithms.algorithm | 3916 | 2403 | 6319 |
 | aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.kex-algorithms.priority | 3916 | 2403 | 6319 |
-| aruba-sw-port-profile | aruba-sw-port-profile:sw-port-profiles.profile.ipv4.address | 3748 | 89 | 3837 |
+| aruba-sw-port-profile | aruba-sw-port-profile:sw-port-profiles.profile.ipv4.address | 3748 | 89 | 3837 |This is work-in-progress|
 | aruba-vlan-range | aruba-vlan-range:layer2-vlan-range.client-ip-tracker-enable | 2168 | 1190 | 3358 |
-| aruba-sw-port-profile | aruba-sw-port-profile:sw-port-profiles.profile.ipv6.addresses.address | 2757 | 3 | 2760 |
-| aruba-named-condition | aruba-named-condition:named-conditions.named-condition.condition-rule.position | 2372 | 353 | 2725 |
-| aruba-named-condition | aruba-named-condition:named-conditions.named-condition.name | 2372 | 353 | 2725 |
+| aruba-sw-port-profile | aruba-sw-port-profile:sw-port-profiles.profile.ipv6.addresses.address | 2757 | 3 | 2760 | This is work-in-progress |
+| aruba-named-condition | aruba-named-condition:named-conditions.named-condition.condition-rule.position | 2372 | 353 | 2725 | Not taken by user input in Liberty |
+| aruba-named-condition | aruba-named-condition:named-conditions.named-condition.name | 2372 | 353 | 2725 | Not taken by user input in Liberty |
 | aruba-local-management | aruba-local-management:local-management.profile.accounting.accounting-group.access-type | 2301 | 399 | 2700 |
 | aruba-local-management | aruba-local-management:local-management.profile.accounting.accounting-group.record-type | 2301 | 399 | 2700 |
 | aruba-local-management | aruba-local-management:local-management.profile.accounting.accounting-group.acct-instances.accounting-method | 2299 | 399 | 2698 |
 | aruba-local-management | aruba-local-management:local-management.profile.accounting.accounting-group.acct-instances.seq-id | 2299 | 399 | 2698 |
 | aruba-local-management | aruba-local-management:local-management.profile.accounting.accounting-group.acct-instances.mgmt-server-group | 2193 | 355 | 2548 |
-| aruba-auth-server | aruba-auth-server:auth-servers.auth-server.shared-secret-config.ciphertext-value | 2505 | 0 | 2505 |
+| aruba-auth-server | aruba-auth-server:auth-servers.auth-server.shared-secret-config.ciphertext-value | 2505 | 0 | 2505 | Users are not expected to input ciphertext |
 | aruba-snmp | aruba-snmp:snmp.profile.user.auth-pass-text | 1771 | 586 | 2357 |
 | aruba-snmp | aruba-snmp:snmp.profile.user.auth-pass-cypher | 1613 | 571 | 2184 |
 | aruba-local-management | aruba-local-management:local-management.profile.authorization.authorization-group.access-type | 1885 | 296 | 2181 |
@@ -59,11 +59,11 @@ These leafs are NOT in the UI but have significant customer usage:
 | aruba-loop-protect | aruba-loop-protect:loop-protect.profile.name | 1622 | 369 | 1991 |
 | aruba-switch-profiles | aruba-switch-profiles:switch-profiles.profile.name | 1161 | 705 | 1866 |
 | aruba-switch-profiles | aruba-switch-profiles:switch-profiles.profile.selected | 1161 | 705 | 1866 |
-| aruba-qos-dscp | aruba-qos-dscp:qos-dscp.profile.dscp-map.dscp | 1839 | 0 | 1839 |
-| aruba-qos-dscp | aruba-qos-dscp:qos-dscp.profile.name | 1839 | 0 | 1839 |
+| aruba-qos-dscp | aruba-qos-dscp:qos-dscp.profile.dscp-map.dscp | 1839 | 0 | 1839 | This is work-in-progress |
+| aruba-qos-dscp | aruba-qos-dscp:qos-dscp.profile.name | 1839 | 0 | 1839 | This is work-in-progress |
 | aruba-switch-system | aruba-switch-system:switch-system.profile.aaa.client-event-log-enable | 701 | 995 | 1696 |
 | aruba-client-insight | aruba-client-insight:client-insight.profile.name | 683 | 986 | 1669 |
-| aruba-qos-dscp | aruba-qos-dscp:qos-dscp.profile.dscp-map.local-priority | 1661 | 0 | 1661 |
+| aruba-qos-dscp | aruba-qos-dscp:qos-dscp.profile.dscp-map.local-priority | 1661 | 0 | 1661 | This is work-in-progress |
 | aruba-client-insight | aruba-client-insight:client-insight.profile.onboarding-event-log | 659 | 974 | 1633 |
 | aruba-logging | aruba-logging:logging.profile.module.process | 1145 | 482 | 1627 |
 | aruba-logging | aruba-logging:logging.profile.module.subcategory | 1145 | 482 | 1627 |
