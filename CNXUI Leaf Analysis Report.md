@@ -36,10 +36,10 @@ These leafs are NOT in the UI but have significant customer usage:
 | Yang Name | Leaf Name | Big Cluster Customers | Small Cluster Customers | Total Customers |Comments|
 |-----------|-----------|----------------------|------------------------|-----------------|------------|
 | aruba-management-user | aruba-management-user:management-users.user.ciphertext-password | 8719 | 4510 | 13229 | Users are not expected to type ciphertext password |
-| aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.kex-algorithms.algorithm | 3916 | 2403 | 6319 |
-| aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.kex-algorithms.priority | 3916 | 2403 | 6319 |
+| aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.kex-algorithms.algorithm | 3916 | 2403 | 6319 | Not present in EP, being added in Jira CNX-213403 |
+| aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.kex-algorithms.priority | 3916 | 2403 | 6319 | Not present in EP, being added in Jira CNX-213403 |
 | aruba-sw-port-profile | aruba-sw-port-profile:sw-port-profiles.profile.ipv4.address | 3748 | 89 | 3837 |This is work-in-progress|
-| aruba-vlan-range | aruba-vlan-range:layer2-vlan-range.client-ip-tracker-enable | 2168 | 1190 | 3358 |
+| aruba-vlan-range | aruba-vlan-range:layer2-vlan-range.client-ip-tracker-enable | 2168 | 1190 | 3358 | This is present in VLAN UI, not vlan-range |
 | aruba-sw-port-profile | aruba-sw-port-profile:sw-port-profiles.profile.ipv6.addresses.address | 2757 | 3 | 2760 | This is work-in-progress |
 | aruba-named-condition | aruba-named-condition:named-conditions.named-condition.condition-rule.position | 2372 | 353 | 2725 | Not taken by user input in Liberty |
 | aruba-named-condition | aruba-named-condition:named-conditions.named-condition.name | 2372 | 353 | 2725 | Not taken by user input in Liberty |
@@ -55,7 +55,7 @@ These leafs are NOT in the UI but have significant customer usage:
 | aruba-local-management | aruba-local-management:local-management.profile.authorization.authorization-group.authz-instances.authorization-method | 1881 | 294 | 2175 |
 | aruba-local-management | aruba-local-management:local-management.profile.authorization.authorization-group.authz-instances.seq-id | 1881 | 294 | 2175 |
 | aruba-snmp | aruba-snmp:snmp.profile.user.priv-pass-cypher | 1564 | 549 | 2113 |
-| aruba-vlan-range | aruba-vlan-range:layer2-vlan-range.enable | 2000 | 76 | 2076 |
+| aruba-vlan-range | aruba-vlan-range:layer2-vlan-range.enable | 2000 | 76 | 2076 | This is present in VLAN UI, not vlan-range |
 | aruba-loop-protect | aruba-loop-protect:loop-protect.profile.name | 1622 | 369 | 1991 |
 | aruba-switch-profiles | aruba-switch-profiles:switch-profiles.profile.name | 1161 | 705 | 1866 |
 | aruba-switch-profiles | aruba-switch-profiles:switch-profiles.profile.selected | 1161 | 705 | 1866 |
@@ -76,10 +76,10 @@ These leafs are NOT in the UI but have significant customer usage:
 | aruba-qos-dscp | aruba-qos-dscp:qos-dscp.profile.dscp-map.color | 1512 | 0 | 1512 |
 | aruba-vsx-pair | aruba-vsx-pair:vsx-config.vsx.name | 866 | 513 | 1379 |
 | aruba-vsx-pair | aruba-vsx-pair:vsx-config.vsx.inter-switch-link.interface-lag | 854 | 511 | 1365 |
-| aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.allow-list.ipv4-allow-list | 1278 | 61 | 1339 |
+| aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.allow-list.ipv4-allow-list | 1278 | 61 | 1339 | 
 | aruba-qos | aruba-qos:global-qos.trust | 1327 | 0 | 1327 |
 | aruba-switch-system | aruba-switch-system:switch-system.profile.aaa.accounting.interim-update-enable | 984 | 340 | 1324 |
-| aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.allow-list.allow-list-enable | 1270 | 50 | 1320 |
+| aruba-local-management | aruba-local-management:local-management.profile.ssh-server-global-configs.allow-list.allow-list-enable | 1270 | 50 | 1320 | Not present in EP, being added in Jira CNX-213403 |
 | aruba-vlan-range | aruba-vlan-range:layer2-vlan-range.igmp.snooping | 958 | 347 | 1305 |
 | aruba-mirror | aruba-mirror:mirrors.profile.name | 836 | 464 | 1300 |
 | aruba-mirror | aruba-mirror:mirrors.profile.session.session-id | 836 | 464 | 1300 |
