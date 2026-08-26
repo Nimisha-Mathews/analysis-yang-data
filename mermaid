@@ -1,0 +1,29 @@
+flowchart TD
+    subgraph FlowA["Flow A: Partial Config Path (roles, policy, certificate, etc.)"]
+        direction TB
+        USER_A["User<br/>initiates partial config change<br/>(roles/policy/certificate/etc.)"]
+        GCD["GCD<br/>(Global Config Distribution)"]
+        EXDIA["EX DIA"]
+        PARTIAL["Partial Config Store"]
+
+        USER_A -- "A1. makes change" --> GCD
+        GCD -- "A2. partial config change notification" --> EXDIA
+        EXDIA -- "A3. request partial(s)" --> PARTIAL
+        PARTIAL -- "A3. return partial(s)" --> EXDIA
+        EXDIA -- "A4. convert partial to PAPI-JSON" --> EXDIA
+    end
+
+    subgraph FlowB["Flow B: Device Template Path (independent)"]
+        direction TB
+        USER_B["User<br/>initiates device template change"]
+        DEVTMPL["Device Templates"]
+
+        USER_B -- "B1. makes change" --> DEVTMPL
+    end
+
+    PAPI["PAPI"]
+    DEVICE["EX Device"]
+
+    EXDIA -- "converted config" --> PAPI
+    DEVTMPL -- "B2. template config" --> PAPI
+    PAPI -- "final step. push config" --> DEVICE
